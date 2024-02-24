@@ -99,6 +99,7 @@ async function getRepoStars(repos) {
 
 async function getRepoLangs(repos) {
     let langs = {};
+    languages = [];
 
     for (const repo of repos) {
         const repoResponse = await fetch(`https://api.github.com/repos/${repo.owner.login}/${repo.name}/languages`, header);

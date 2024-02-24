@@ -7,23 +7,25 @@
    <link rel="stylesheet" type="text/css" href="Styles/styles.css">
    <link rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-   <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link rel="icon" type="images/svg" href="Images/Logo.svg">
 
    <title>My Profile</title>
 </head>
 
 <body class="px-8 flex justify-center dark:bg-zinc-900 dark:text-white">
    <div>
-      <div class="inline-flex justify-center mx-auto my-4 bg-gray-100 dark:bg-zinc-800 rounded-lg">
+      <div
+         class="inline-flex justify-center mx-auto my-4 bg-gray-100 dark:bg-zinc-800 dark:border-zinc-700 border-[1px] border-t-zinc-600 rounded-md">
          <input class="px-6 py-2 text-xl bg-transparent w-[100%]" type="text" id="username"
             placeholder="Enter your username">
          <span tabindex="0" class="material-symbols-rounded h-8 mr-2" style="font-size: 40px;"
             onclick="newUsername()">person_search</span>
       </div>
-      <div class="py-4 px-8 my-4 bg-gray-100 dark:bg-zinc-800 rounded-lg hidden user-info">
+      <div
+         class="py-4 px-8 my-4 bg-gray-100 dark:bg-zinc-800 dark:border-zinc-700 border-[1px] border-t-zinc-600 rounded-md hidden user-info">
          <div class="grid gap-6" style="grid-template-columns: 300px auto;">
             <img class="rounded-full profile-picture w-[300px]" alt="Profile Picture">
-            <div>
+            <div class="max-w-[45vw]">
                <h1 class="profile-name text-3xl font-bold">Name</h1>
                <h1 class="profile-handle text-xl dark:text-zinc-600 font-bold">handle</h1>
                <div class="profile-langs py-2"></div>

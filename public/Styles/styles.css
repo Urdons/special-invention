@@ -560,6 +560,14 @@ video {
   margin: 0.25rem;
 }
 
+.m-12 {
+  margin: 3rem;
+}
+
+.m-6 {
+  margin: 1.5rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -628,6 +636,14 @@ video {
   width: 300px;
 }
 
+.max-w-\[40vw\] {
+  max-width: 40vw;
+}
+
+.max-w-\[45vw\] {
+  max-width: 45vw;
+}
+
 .scale-100 {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
@@ -640,6 +656,14 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .rounded-lg {
