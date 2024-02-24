@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="Styles/styles.css">
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+   <title>My Profile</title>
+</head>
+
+<body class="px-8 flex justify-center dark:bg-zinc-900 dark:text-white">
+   <div>
+      <div class="inline-flex justify-center mx-auto my-4 bg-gray-100 dark:bg-zinc-800 rounded-lg">
+         <input class="px-6 py-2 text-xl bg-transparent w-[100%]" type="text" id="username"
+            placeholder="Enter your username">
+         <span tabindex="0" class="material-symbols-rounded h-8 mr-2" style="font-size: 40px;"
+            onclick="newUsername()">person_search</span>
+      </div>
+      <div class="py-4 px-8 my-4 bg-gray-100 dark:bg-zinc-800 rounded-lg hidden user-info">
+         <div class="grid gap-6" style="grid-template-columns: 300px auto;">
+            <img class="rounded-full profile-picture w-[300px]" alt="Profile Picture">
+            <div>
+               <h1 class="profile-name text-3xl font-bold">Name</h1>
+               <h1 class="profile-handle text-xl dark:text-zinc-600 font-bold">handle</h1>
+               <div class="profile-langs py-2"></div>
+               <p class="profile-desc text-lg"></p>
+               <br>
+               <hr>
+               <br>
+               <div>
+                  <p><span class="profile-repos"></span> repositories</p>
+               </div>
+               <br>
+               <hr>
+               <br>
+               <p><span class="profile-followers"></span> followers</p>
+               <p><span class="profile-following"></span> following</p>
+               <p><span class="profile-stars"></span> stars</p>
+               <p>location: <span class="profile-location"></span></p>
+               <p class="profile-email">Email</p>
+               <a class="profile-website text-blue-500">Website (ur/)</a><br>
+               <a class="profile-github text-blue-500">Github</a><br>
+               <br>
+               <div class="github-stats"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</body>
+<style>
+   p {
+      max-width: 700px;
+   }
+</style>
+<script src="Scripts/github-api.js"></script>
+
+</html>

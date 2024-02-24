@@ -1,0 +1,29 @@
+{
+  "name": "special-invention",
+  "version": "0.0.1",
+  "description": "Your developer profile",
+  "main": "app.js",
+  "scripts": {
+    "test": "run",
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "watch-tailwind": "npx tailwindcss -i ./public/Styles/tailwind.config.css -o ./public/Styles/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urdons/special-invention.git"
+  },
+  "author": "Ave and Hamza",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Urdons/special-invention/issues"
+  },
+  "homepage": "https://github.com/Urdons/special-invention#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "typescript": "^5.3.3"
+  }
+}
