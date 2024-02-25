@@ -2,7 +2,7 @@ let userData; // global variable
 let username = "";
 let totalStars = 0;
 let languages = [];
-const TOKEN = "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";
+const TOKEN = "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";
 let header = {
     'headers': {
         'Authorization': `token ${TOKEN}`
@@ -30,6 +30,12 @@ function newUsername() {
     localStorage.setItem("savedUsername", JSON.stringify(username));
     getUserInfo();
 }
+
+document.getElementById("username").addEventListener("keydown", function(event) {
+    if (event.keyCode === 13) {
+        newUsername();
+    }
+});
 
 async function getUserInfo() {
     try {

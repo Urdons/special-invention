@@ -9,6 +9,9 @@
    id="svg1"
    sodipodi:docname="Logo.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   inkscape:export-filename="Logo.png"
+   inkscape:export-xdpi="9600"
+   inkscape:export-ydpi="9600"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,12 +28,12 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="15.859244"
-     inkscape:cx="4.539939"
-     inkscape:cy="7.4089283"
+     inkscape:cx="4.6029937"
+     inkscape:cy="7.4089282"
      inkscape:window-width="1440"
      inkscape:window-height="776"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -87,7 +90,7 @@
          aria-label="{" />
     </g>
     <circle
-       style="display:inline;fill:#4b78ff;fill-opacity:1;stroke:none;stroke-width:0.413413;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#3b83f6;fill-opacity:1;stroke:none;stroke-width:0.413413;stroke-dasharray:none;stroke-opacity:1"
        id="path3"
        cx="8"
        cy="8"

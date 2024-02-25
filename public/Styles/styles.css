@@ -628,6 +628,10 @@ video {
   min-height: 80vh;
 }
 
+.min-h-\[85vh\] {
+  min-height: 85vh;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }

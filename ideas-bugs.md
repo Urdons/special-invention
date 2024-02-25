@@ -1,0 +1,11 @@
+features
+- saves locally so it does not use up api calls
+- finish main page
+- connect replit
+- connect codepen
+- connect gitlab
+- making accounts
+- save information like bio
+- embedding
+- custom styles
+- ai
