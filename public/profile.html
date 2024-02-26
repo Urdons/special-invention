@@ -12,17 +12,26 @@
    <title>My Profile</title>
 </head>
 
-<body class="px-8 flex justify-center dark:bg-zinc-900 dark:text-white">
+<body class="px-8 flex justify-center bg-zinc-900 text-white">
    <div>
-      <div
-         class="inline-flex justify-center mx-auto my-4 bg-gray-100 dark:bg-zinc-800 dark:border-zinc-700 border-[1px] border-t-zinc-600 rounded-md">
-         <input class="px-6 py-2 text-xl bg-transparent w-[100%]" type="text" id="username"
-            placeholder="Enter your username">
-         <span tabindex="0" class="material-symbols-rounded h-8 mr-2" style="font-size: 40px;"
-            onclick="newUsername()">person_search</span>
+      <!-- top bar -->
+      <div class="mx-auto my-4">
+         <a href="index.html">
+            <div class="inline-flex justify-center transition-all p-2 shadow-lg bg-zinc-800 border-[1px] border-zinc-700 border-t-zinc-600 hover:bg-zinc-700 rounded-md text-white">
+                <span class="material-symbols-rounded text-blue-500">home</span>
+            </div>
+        </a>
+         <!-- User search (will be replaced when accounts are added) -->
+         <div class="inline-flex justify-center items-center shadow-lg bg-zinc-800 border-[1px] border-zinc-700 border-t-zinc-600 rounded-md">
+            <input class="px-6 py-2 text-base bg-transparent w-[100%]" type="text" id="username"
+               placeholder="Enter your username">
+            <span tabindex="0" class="material-symbols-rounded text-blue-500 mr-2"
+               onclick="newUsername()">person_search</span>
+         </div>
       </div>
+      <!-- Profile Card -->
       <div
-         class="py-4 px-8 my-4 bg-gray-100 dark:bg-zinc-800 dark:border-zinc-700 border-[1px] border-t-zinc-600 rounded-md hidden user-info">
+         class="shadow-2xl py-4 px-8 my-4 bg-gray-100 dark:bg-zinc-800 dark:border-zinc-700 border-[1px] border-t-zinc-600 rounded-md hidden user-info">
          <div class="grid gap-6" style="grid-template-columns: 300px auto;">
             <img class="rounded-full profile-picture w-[300px]" alt="Profile Picture">
             <div class="max-w-[45vw]">
@@ -59,6 +68,6 @@
       max-width: 700px;
    }
 </style>
-<script src="Scripts/github-api.js"></script>
-
+<script src="Scripts/github.js"></script>
+<script src="Scripts/gitlab.js"></script>
 </html>

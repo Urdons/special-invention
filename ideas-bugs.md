@@ -1,11 +1,20 @@
 features
 - saves locally so it does not use up api calls
-- finish main page
 - connect replit
 - connect codepen
 - connect gitlab
-- making accounts
-- save information like bio
-- embedding
-- custom styles
+- embedding into pages
 - ai
+- give error if it does not exist or token not working
+- accounts save to mongodb or sql
+- github/gitlab oauth to start
+- multiple github accounts
+- private account info like private repos on page through oauth
+- edit image link and bio
+- show multiple usernames
+- shop top 8 repos
+- add built with codefetch branding
+- custom styles
+- main page
+- add achievement/education blocks
+- export business card
